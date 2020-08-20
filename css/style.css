@@ -1,0 +1,127 @@
+
+body {
+	width: 100%;
+	margin: 0;
+}
+header {
+	background: #fff;
+}
+
+#logo img {
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	display: block;
+}
+
+nav {
+	height: 50px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+
+li {
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	flex: 1;
+}
+
+a {
+	color: #341472;
+	font-family: Verdana, Sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#view {
+	width: 100%;
+}
+
+.about {
+	width: 90%;
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about section {
+	color: #341472;
+	font-family: Verdana, Sans-serif;
+	width: 49%;
+}
+
+.about section h1 {
+	margin-top: 0px;
+}
+
+p:last-child {
+	margin-bottom: 0px;
+}
+
+.about img {
+	width: 49%;
+}
+
+.column-team {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	background-color: #fac
+}
+
+.team {
+	box-sizing: border-box;
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+}
+
+.team h1 {
+	order: 3;
+	font-family: "Assistant", Sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.team h2 {
+	order: 4;
+	font-family: "Assistant", Sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team p {
+	order: 1;
+	color: #000000;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: "Assistant", Sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.team img {
+	width: 140px;
+	order: 2;
+	margin: auto;
+	border-radius: 50%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
